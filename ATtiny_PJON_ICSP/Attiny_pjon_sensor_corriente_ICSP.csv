@@ -1,0 +1,13 @@
+"Part";"Value";"Device";"Package";"Description";"PROD_ID";"VALUE";
+"C1";"0.33uF";"C-EUC1206";"C1206";"CAPACITOR, European symbol";"";"";
+"C2";"0.1uF";"C-EUC1206";"C1206";"CAPACITOR, European symbol";"";"";
+"C5";"1nF";"C-EUC1206";"C1206";"CAPACITOR, European symbol";"";"";
+"IC2";"78L05SMD";"78L05SMD";"SO08";"Positive VOLTAGE REGULATOR";"";"";
+"LED1";"";"LEDSMT1206";"1206";"LED";"";"";
+"LED2";"LED-TRICOLOR-5050NO_IC";"LED-TRICOLOR-5050NO_IC";"LED-TRICOLOR-5050";"";"";"";
+"MICRO";"Tiny85-20-SMT";"ATTINY45TINY85-20-SMT";"SO08-EIAJ";"Atmel 8-pin 2/4/8kB flash uC";"IC-09092";"Tiny85-20-SMT";
+"R1";"220";"R-EU_R1206";"R1206";"RESISTOR, European symbol";"";"";
+"R2";"220";"R-EU_R1206";"R1206";"RESISTOR, European symbol";"";"";
+"R3";"220";"R-EU_R1206";"R1206";"RESISTOR, European symbol";"";"";
+"R4";"220";"R-EU_R1206";"R1206";"RESISTOR, European symbol";"";"";
+"U$1";"ACS712";"ACS712";"SO08";"Hall-effect-based isolated linear current sensor";"IC-08964";"";
