@@ -8,5 +8,7 @@ en próximas versiones.
 La carpeta ATtiny_servo_sweep es un intento de generar una señal de control de servo desde el ATtiny85, se utiliza la función
 delayMicroseconds y el resultado no es estable.
 
-TODO: crear otro algoritmo para crear la señal de control del servo sin utilizar la función delayMicroseconds, la mejor
-opción que se me ocurre es modificar el código de ejemplo BlinkWithoutDelay y generar la señal de control con el.
+En el programa para Arduino ATtiny_servo_WithoutDelay se a utilizado el ejemplo BlinkWithoutDelay modificado para generar
+la señal de control del servo sin recurrir a la función delay.... pero el resultado es el mismo que que utilizando delay.
+Empiezo a pensar que no es cosa de software si no de hardware, actualmente alimento el servo desde el programador ArduinoISP
+y, aunque es un servo de 9g, es posible que no reciba suficiente corriente y por ello su comportamiento sea "tembloroso"
