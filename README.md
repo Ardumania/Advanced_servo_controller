@@ -1,7 +1,7 @@
 # Advanced_servo_controller
 Based on ATtiny85 and PJON bus
 
-La carpeta ATtiny_PJON_ICSP contiene los archivos Eagle de la placa en su primera versión, esta será sólo de pruebas,
+La carpeta Eagle contiene los archivos Eagle de la placa en su primera versión, esta será sólo de pruebas,
 ya se ha visto que hay otros componentes que son más interesantes de instalar en la placa que el led RGB. Esto se hará 
 en próximas versiones.
 
