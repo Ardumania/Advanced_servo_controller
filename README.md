@@ -1,9 +1,10 @@
 # Advanced_servo_controller
 Based on ATtiny85 and PJON bus
 
-La carpeta Eagle contiene los archivos Eagle de la placa en su primera versión, esta será sólo de pruebas,
-ya se ha visto que hay otros componentes que son más interesantes de instalar en la placa que el led RGB. Esto se hará 
-en próximas versiones.
+Eagle folder contains the board Eagle files, now in a new configuration. The RGB LED has been removed and added an external
+oscillator for the ATtiny85, pads to solder a NTC resistor as a temperature sensor and a hole to place this sensor close 
+to the servo.
+This dessingn is waiting for @JavierIH approval ;)
 
 La carpeta ATtiny_servo_sweep es un intento de generar una señal de control de servo desde el ATtiny85, se utiliza la función
 delayMicroseconds y el resultado no es estable.
