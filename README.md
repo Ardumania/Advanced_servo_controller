@@ -1,11 +1,18 @@
 # Advanced_servo_controller
 Based on ATtiny85 and PJON bus
 
+<<<<<<< HEAD
 In the last years I have worked in several projects related with education and robotics 
 and I have found several problems, if you work with only one microcontroller you are very 
 limited about the number of servos you can drive, you need a separate controller to 
 drive until 32 servos, but it’s still possible. What about sensors? if you are planning 
 to build an hexapod and mount two distance sensor for each leg It’s practically impossible.
+=======
+Eagle folder contains the board Eagle files, now in a new configuration. The RGB LED has been removed and added an external
+oscillator for the ATtiny85, pads to solder a NTC resistor as a temperature sensor and a hole to place this sensor close 
+to the servo.
+This dessingn is waiting for @JavierIH approval ;)
+>>>>>>> origin/master
 
 There are systems for robotics that consist in smart servos connected by a RS-485 bus 
 (Dynamixel or Ubtech), but in these systems is not possible to implement sensors on the 
