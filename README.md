@@ -47,4 +47,5 @@ from its actual position… simple. Each module has a current sensor a can send 
 to the main controller as responses to a specific requests… and more capabilities can 
 be implemented in the module firmware in the future.
 
-In the future can be implemented more types of modules with sensors, e.g. distance sensors, which are very interesting in robotics. 
+In the future can be implemented more types of modules with sensors, e.g. distance sensors, 
+which are very interesting in robotics. 
