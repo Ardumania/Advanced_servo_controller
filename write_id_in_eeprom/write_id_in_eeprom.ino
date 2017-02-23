@@ -33,8 +33,8 @@ void setup(){
 void loop(){
   // The work is done, now just blink pin 0
   digitalWrite(0, HIGH);
-  delay(1000/16);
-  digitalWrite(0, HIGH);
-  delay(1000/16);
+  delay(500/16);
+  digitalWrite(0, LOW);
+  delay(500/16);
 
 }
