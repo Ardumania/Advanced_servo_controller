@@ -2,7 +2,7 @@
  * Advanced Servo Controller Firmware
  * by Jose Manuel Escuder
  * ver 0.1 January 20th, 2017
- * License (CC)AT-SA-NC
+ * License (CC)BY-NC-SA
  * 
  * This firmware must be uploaded to the module using a ArduinoISP
  * or a Arduino UNO as ISP programmer.
@@ -40,7 +40,7 @@ void setup() {
   // the device id is stored in the EEPROM,
   // in the position 0, going to read it and
   // set it as bus id. If the module is new the 
-  // id by defect is 10
+  // id by default is 10
   int id;
   EEPROM.get(0, id);
   bus.set_id(id);
